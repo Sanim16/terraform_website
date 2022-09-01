@@ -10,12 +10,14 @@ cat <<EOT >> /var/www/html/index.html
 <title>Sample site deployed with Terraform</title>
 <body>
 
-<h1>Hello World from Momoh at $(hostname -f)</h1>
+<h1>Hello World from $(hostname -f)</h1>
 <p>
 
 This site was deployed with Terraform to an EC2 instance in an Auto Scaling Group fronted by an Application Load balancer.
 It's a basic page deployed by the userdata script, You could put an instruction to get the site from S3 for a full site.
-You could also use the file provisioner to copy the files(or directories) from your local system.
+<br>
+</p>
+<p>
 Cheers and have a good day
 
 </p>

@@ -7,7 +7,7 @@ The load balancer is accessible via port 80 and 443 from the Internet while the 
 
 The instances are also accessible by ssh from the IP address specified in the variable MY_IP
 
-At start-up the user-data runs to install Apache and write a simple home page, alternatively the script could be configured to download a website folder from S3.
+At start-up the user-data runs to install Apache and also writes a simple home page, alternatively the script could be configured to download a website folder from S3.
 
 It is deployed in Us-east-1 region and some of the availability zones are hardcoded, however i will try to update this.
 
