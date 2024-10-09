@@ -9,8 +9,8 @@ The instances are also accessible by ssh from the IP address specified in the va
 
 At start-up the user-data runs to install Apache and also writes a simple home page, alternatively the script could be configured to download a website folder from S3.
 
-It is deployed in Us-east-1 region and some of the availability zones are hardcoded, however i will try to update this.
+It is deployed in Us-east-1 region and some of the availability zones are hardcoded, however this could be changed to use variables.
 
-The AMI specified in others.tf is also hard coded, this will also be updated.
+The AMI specified in others.tf is also hard coded, this could also be updated.
 
 Cheers and have a good day, I hope some one finds this useful.
